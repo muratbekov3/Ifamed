@@ -1,0 +1,668 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url(../fonts/BebasNeue\ Light.ttf);
+}
+
+
+
+.image{
+    position: absolute;
+   border-radius: 0 0 30% 30% ;
+   
+    width: 1530px;
+    height: 700px;
+    background: url('../img/937.png') no-repeat center center;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    
+  }
+  .h{
+     display: flex;
+     margin-left: 450px;
+     
+  }
+
+  .h p{
+      color: #42B4DF;
+      padding-left: 15px;
+    
+  }
+.h img{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+
+
+
+  header{
+      background: #E5E5E5;
+  }
+  .loc{
+     margin-left: 40px;
+  }
+
+  .top{
+      position: absolute;
+      width: 800px;
+      height: 60px;
+      left: 450px;
+      background:white;
+      border-radius: 0px 0px 53.5px 53.5px;
+     
+  }
+  .top1 ul {
+      display: flex; 
+ }
+ .top ul{
+     display: flex;
+
+ }
+
+ .top li{
+     list-style: none;
+     float: left;
+ }
+
+.top1{
+    background-color:#42B4DF ;
+    height: 60px;
+    position: absolute;
+    top: 50px;
+    left: 1060px;
+    border-radius: 0px 0px 53.5px 0px;
+
+}
+.top1 ul li a{
+    position: relative;
+    top: 15px;
+    right: 40px;     
+}
+
+.top1 ul li{
+    list-style: none;
+}
+.top ul li a{
+    padding: 5px 10px 5px 5px;
+}
+ul li a{
+    display: block;
+    height: 50px;
+    padding-left: 14px;
+    margin-top: -13px;
+    text-decoration: none;
+    line-height: 50px;
+    color: grey;
+}
+.top ul li a:hover{
+    color: white ;
+    background-color:#42B4DF;
+    transition: all 0.3s ease;
+    box-shadow: 1px 5px 10px -5px black;
+}
+.kaptal{
+    position: absolute;
+    left: 1430px;
+    top: 650px;
+}
+.clin{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    line-height: 15px;
+    
+    
+}
+.clin h1{
+    color: #42B4DF;
+    font-weight: bolder;
+    font-size: 85px;
+    font-family: Bebas Neue;
+}
+.clin h2{
+    color: grey;
+    font-weight:bold ;
+    font-size: 45px;
+    font-family: Bebas Neue;
+}
+.clin h3{
+    color: #42B4DF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.work{
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    background-color: #42B4DF;
+    border-radius: 43px;
+    left: 450px;
+    top: 470px;
+}
+.work p{
+    position: absolute;
+    color: white;
+    line-height: 10px;
+    left: 15px;
+}
+
+.lab{
+    position: absolute;
+    top: 800px;
+   left: 650px;
+   line-height: 15px;
+}
+.lab h1{
+    
+    font-weight: normal;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 50px;
+}
+
+.lab h2{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-left: -30px;
+    font-weight: normal;
+    
+}
+span{
+    color: #42B4DF;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.lab img{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 105px;
+    left: -100px;
+}
+.icon{
+    position: absolute;
+    top: 1100px;
+}
+
+
+.icon1{
+    
+position: absolute;
+width: 215px;
+height: 215px;
+left: 300px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+
+.icon1 img{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.icon1 p{
+    color: grey;
+    width: 130px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.icon2{
+    
+position: absolute;
+width: 215px;
+height: 215px;
+left: 530px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+
+.icon2 img{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.icon2 p {
+    color: grey;
+    text-align: center;
+}
+.icon3{
+    
+position: absolute;
+width: 215px;
+height: 215px;
+left: 760px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon3 img{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.icon3 p{
+    text-align: center;
+    color: grey;
+}
+.icon4{
+    
+position: absolute;
+width: 215px;
+height: 215px;
+left: 990px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon4 img{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.icon4 p{
+    margin-top: 5px;
+    text-align: center;
+    color: gray;
+}
+
+.icon5{
+    
+position: absolute;
+width: 215px;
+height: 300px;
+left:300px;
+top: 250px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon5 img{
+    margin: 20px;
+    margin-left: 75px;
+}
+.icon5 p{
+    color: gray;
+    text-align: center;
+    width: 150px;
+    margin-top: -1px;
+    margin-left: 30px;
+}
+
+.icon6{
+    
+position: absolute;
+width: 215px;
+height: 215px;
+left: 530px;
+top: 250px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon6 img{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.icon6 p{
+    text-align: center;
+    color: gray;
+}
+.icon7{
+    
+position: absolute;
+width: 215px;
+height: 216px;
+left: 760px;
+top: 250px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon7 img{
+      margin-top: 20px;
+      margin-left: 70px;  
+}
+.icon7 p{
+ text-align: center;
+ color: gray;
+ margin-top: 40px;
+}
+
+.icon8{
+    
+position: absolute;
+width: 215px;
+height: 400px;
+left: 993px;
+top: 250px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+.icon8 img{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.icon8 p{
+    text-align: center;
+    color: gray;
+}
+.pre{
+    position: absolute;
+    top: 1900px;
+    width: 99%;
+    height: 645px;
+    background: #F9FAFA;
+}
+.pre img{
+    width: 51%;
+    height: 645px;
+}
+.pre1 h1{
+    color: #42B4DF;
+    font-weight: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.pre1 h2{
+    color: #42B4DF;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.pre1{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    line-height: 30px;
+    font-family: Bebas Neue;
+}
+.pre1 img{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: -60px;
+    top: 190px;
+}
+.dos{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 30px;
+    left: 765px;
+    background-color: white;
+    border-left: 7px solid #42B4DF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.dos img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+}
+.dos p{
+    color: grey;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.g img{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 85px;
+  left: 710px;
+}
+.dos1{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 180px;
+    left: 765px;
+    background-color: white;
+    border-left: 7px solid #42B4DF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.dos1 img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.dos1 p{
+    color: grey;
+    
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 250px;
+}
+.g1 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 230px;
+    left: 710px;
+}
+.dos2{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 330px;
+    left: 765px;
+    background-color: white;
+    border-left: 7px solid #42B4DF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.dos2 img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.dos2 p{
+    color: grey;
+    
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 250px;
+}
+.g2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 380px;
+    left: 710px;
+}
+.dos3{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 480px;
+    left: 765px;
+    background-color: white;
+    border-left: 7px solid #42B4DF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.dos3 img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.dos3 p{
+    color: grey;
+    
+    margin-top: 50px;
+    margin-left: 150px;  
+}
+.g3 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 530px;
+    left: 710px;
+}
+.kab1 img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 2800px;
+    border-radius: 50%;
+    left: 300px;
+}
+.kab2{
+    position: absolute;
+    left: 850px;
+    top: 2850px;
+    background-color: #F9FAFA;
+    width: 668px;
+    height: 300px;
+    
+}
+.kab2 h1{
+    font-family: Bebas Neue;
+    color: #42B4DF;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.kab2 h3{
+    color: grey;
+    width: 450px;
+    margin-top: -30px;
+    margin-left:60px ;
+
+}
+.kab2 p{
+    color: grey;
+    width: 360px;
+    margin-left: 60px;
+}
+footer{
+    position: absolute;
+    background-color: #42B4DF;
+
+    top: 3470px;
+    width: 1510px;
+    height: 300px;
+    border-radius: 40% 40% 0 0;
+}
+
+
+
+
+
+.top2{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 33px 33px 53.5px 53.5px;
+        position: absolute;
+        width: 650px;
+        height: 60px;
+        left: 450px;
+        background:white;
+        top: 80px;
+        
+       
+}
+
+.top2 li{
+   list-style: none;
+   float: left;
+}
+
+.top2 ul li a{
+  padding: 5px 10px 5px 5px;
+}
+ul li a{
+  display: block;
+  height: 50px;
+  padding-left: 14px;
+  margin-top: -13px;
+  text-decoration: none;
+  line-height: 50px;
+  color: grey;
+}
+.top2 ul li a:hover{
+  color: white ;
+  background-color:#42B4DF;
+  transition: all 0.3s ease;
+  box-shadow: 1px 5px 10px -5px black;
+}
+
+.num{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    line-height: 5px;
+    left: 490px;
+    top: 170px;
+}
+.num p{
+    font-size: 13px;
+    color: #42B4DF;
+    font-style: normal;
+    font-weight: bolder;
+}
+.num1 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+.num2 p{
+position: absolute;
+top: 15px;
+left:60px ;
+}
+
+.vec {
+
+   width: 40px;
+   height: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+.vec img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.end img{
+    width: 50px;
+    height: 50px;
+}
+.end{
+    position: absolute;
+    left: 800px;
+    display: flex;
+    top: 170px;
+}
+
+
+
